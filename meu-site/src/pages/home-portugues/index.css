@@ -1,0 +1,27 @@
+main {
+
+    .section-linguagem{
+        display: flex;
+        border: 1px solid;
+        justify-content: end;
+    }
+
+    .itens-superiores {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .itens-meio {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .itens-inferiores {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+}
