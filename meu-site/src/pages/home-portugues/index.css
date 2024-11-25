@@ -1,8 +1,9 @@
 main {
-
+    background-color: #0c0437;
+    height: 47.6vw;
     .section-linguagem{
         display: flex;
-        border: 1px solid;
+        border-bottom: 1px solid #00FFFF;
         justify-content: end;
     }
 
@@ -30,50 +31,23 @@ main {
     }
 
     #id-divs {
-        /* border: 1px solid black; */
-        padding: 2em;
-        /* transform: rotate(45deg); */
-        /* border-radius: 5em; */
+        padding: 0em 3em 0em 3em;
+        border: 2px solid #00FFFF; /* Cor de fundo */
+        clip-path: polygon(
+        10% 0,90% 0, /* Topo com cortes diagonais */
+        100% 10%, 100% 90%, /* Laterais retas */
+        90% 100%, 10% 100%, /* Base com cortes diagonais */
+        0 90%, 0 10% /* Laterais retas */
+        )
     }
 
     #id-section {
-        margin-bottom: 3em;
+        margin-bottom: 5em;
     }
 
-    /* .div-1 {
-        transform: rotate(-45deg);
+    .textos {
+        font-size: 1.5em;
+        color: white;
     }
-
-    .div-2 {
-        color: black;
-    }
-
-    .div-3 {
-        transform: rotate(45deg);
-    }
-
-    .div-4 {
-        transform: rotate(-90deg);
-    }
-
-    .div-5 {
-        /* transform: rotate(-30deg); */
-    /* }
-
-    .div-6 {
-        transform: rotate(90deg);
-    }
-
-    .div-7 {
-        transform: rotate(-110deg);
-    }
-
-    .div-8 {
-        transform: rotate(180deg);
-    }
-
-    .div-9 {
-        transform: rotate(110deg);
-    } */
-
+    
 }
