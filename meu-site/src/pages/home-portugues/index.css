@@ -1,6 +1,7 @@
 main {
     background-color: #0c0437;
     height: 47.6vw;
+    
     .section-linguagem{
         display: flex;
         border-bottom: 1px solid #00FFFF;
@@ -30,15 +31,17 @@ main {
         justify-content: space-around;
     }
 
-    #id-divs {
-        padding: 0em 3em 0em 3em;
-        border: 2px solid #00FFFF; /* Cor de fundo */
+    .id-divs {
+        padding: 1em; /* Adiciona espaço interno para os textos */
+        width: 10em; /* Define uma largura fixa */
+        text-align: center; /* Centraliza o texto dentro da div */
+        border: 2px solid #00FFFF;
         clip-path: polygon(
-        10% 0,90% 0, /* Topo com cortes diagonais */
-        100% 10%, 100% 90%, /* Laterais retas */
-        90% 100%, 10% 100%, /* Base com cortes diagonais */
-        0 90%, 0 10% /* Laterais retas */
-        )
+            10% 0, 90% 0, /* Topo com cortes diagonais */
+            100% 10%, 100% 90%, /* Laterais retas */
+            90% 100%, 10% 100%, /* Base com cortes diagonais */
+            0 90%, 0 10% /* Laterais retas */
+        );
     }
 
     #id-section {
