@@ -52,5 +52,61 @@ main {
         font-size: 1.5em;
         color: white;
     }
+
+    .setas{
+        display: flex;
+        flex-direction: column;
+        width: 100px;
+    }
+
+    
+    /* Contêiner de setas */
+    .section-setas {
+        position: relative; /* Contêiner relativo para setas */
+        height: 0; /* Alinha com os elementos sem influenciar o layout */
+    }
+
+    /* Estilo base das setas */
+    .seta {
+        position: absolute; /* Posiciona livremente no layout */
+        width: 50px; /* Tamanho fixo das setas (ajuste conforme necessário) */
+        height: auto; /* Mantém a proporção da imagem */
+    }
+
+    /* Setas superiores apontando para o centro */
+    .seta1 {
+        top: -80px; /* Ajuste o valor para posicionar acima */
+        left: 25%; /* Alinha com a primeira div superior */
+    }
+
+    .seta2 {
+        top: -80px;
+        left: 50%; /* Centraliza entre divs superiores */
+        transform: translateX(-50%);
+    }
+
+    .seta3 {
+        top: -80px;
+        left: 75%; /* Alinha com a terceira div superior */
+    }
+
+    /* Setas inferiores saindo do centro */
+    .seta4 {
+        top: 100px; /* Ajuste o valor para posicionar abaixo */
+        left: 25%; /* Alinha com a primeira div inferior */
+    }
+
+    .seta5 {
+        top: 100px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .seta6 {
+        top: 100px;
+        left: 75%; /* Alinha com a terceira div inferior */
+    }
+
+    
     
 }
