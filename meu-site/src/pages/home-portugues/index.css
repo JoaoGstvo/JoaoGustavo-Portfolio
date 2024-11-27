@@ -1,7 +1,9 @@
 main {
     background-color: #0c0437;
     height: 47.6vw;
-    
+
+
+
     .section-linguagem{
         display: flex;
         border-bottom: 1px solid #00FFFF;

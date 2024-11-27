@@ -4,6 +4,7 @@ function PaginaInicial() {
     return(
 
         <main>
+            
             <section className="section-linguagem" id="id-section">
                 <div className="div-linguagem">
                     <h1 className="textos">English</h1>
@@ -25,13 +26,13 @@ function PaginaInicial() {
             </section>
 
             <section className="section-setas">
-                <img src="/images/1.png" alt="Seta 1" className="seta seta1" />
-                <img src="/images/2.png" alt="Seta 2" className="seta seta2" />
-                <img src="/images/3.png" alt="Seta 2" className="seta seta3" />
+                <img src="/images/Seta1.png" alt="Seta 1" className="seta seta1" />
+                <img src="/images/Seta2.png" alt="Seta 2" className="seta seta2" />
+                <img src="/images/Seta3.png" alt="Seta 2" className="seta seta3" />
 
-                <img src="/images/4.png" alt="Seta 4" className="seta seta4" />
-                <img src="/images/5.png" alt="Seta 5" className="seta seta5" />
-                <img src="/images/6.png" alt="Seta 6" className="seta seta6" />
+                <img src="/images/Seta4.png" alt="Seta 4" className="seta seta4" />
+                <img src="/images/Seta5.png" alt="Seta 5" className="seta seta5" />
+                <img src="/images/Seta6.png" alt="Seta 6" className="seta seta6" />
             </section>
 
             <section className="itens-meio" id="id-section">
