@@ -5,55 +5,61 @@ function PaginaInicial() {
 
         <main>
             
-            <section className="section-linguagem" id="id-section">
+            <section className="section-linguagem">
                 <div className="div-linguagem">
                     <h1 className="textos">English</h1>
                 </div>
             </section>
 
-            <section className="itens-superiores" id="id-section">
-                <div className="id-divs" id="div-1">
-                    <h1 className="textos">Objetivos</h1>
-                </div>
+            <section className="container-itens">
+                <section className="itens-primeira-coluna">
+                    <div className="divs-itens" id="a">
+                        <h1 className="textos">Objetivos</h1>
+                    </div>
 
-                <div className="id-divs" id="div-2">
-                    <h1 className="textos">Tecnologias</h1>
-                </div>
+                    <section className="section-setas-esquerda">
+                        <img src="/images/Seta1.png" alt="Seta 1" className="seta1" />
+                        <img src="/images/Seta5.png" alt="Seta 2" className="seta2" />
+                    </section>
 
-                <div className="id-divs" id="div-3">
-                    <h1 className="textos">Projetos</h1>
-                </div>
+                    <div className="divs-itens" id="div-2">
+                        <h1 className="textos">Tecnologias</h1>
+                    </div>
+                </section>
+
+
+                <section className="itens-meio-coluna">
+                    <div className="divs-itens" id="coluna-meio">
+                        <h1 className="textos">Projetos</h1>
+                    </div>
+
+                    <div className="divs-itens" id="coluna-meio">
+                        <h1 className="textos">João Gustavo</h1>
+                    </div>
+
+                    <div className="divs-itens">
+                        <h1 className="textos">Contatos</h1>
+                    </div>
+                </section>
+
+
+                <section className="itens-direita-coluna">
+                    <div className="divs-itens" id="div-direita">
+                        <h1 className="textos">Formações</h1>
+                    </div>
+
+                    <section className="section-setas-direita">
+                        <img src="/images/Seta3.png" alt="Seta 1" className="seta3" />
+                        <img src="/images/Seta2.png" alt="Seta 2" className="seta4" />
+                    </section>
+
+                    <div className="divs-itens" id="div-direita">
+                        <h1 className="textos">Idiomas</h1>
+                    </div>
+                </section>
+
             </section>
 
-            <section className="section-setas">
-                <img src="/images/Seta1.png" alt="Seta 1" className="seta seta1" />
-                <img src="/images/Seta2.png" alt="Seta 2" className="seta seta2" />
-                <img src="/images/Seta3.png" alt="Seta 2" className="seta seta3" />
-
-                <img src="/images/Seta4.png" alt="Seta 4" className="seta seta4" />
-                <img src="/images/Seta5.png" alt="Seta 5" className="seta seta5" />
-                <img src="/images/Seta6.png" alt="Seta 6" className="seta seta6" />
-            </section>
-
-            <section className="itens-meio" id="id-section">
-                <div className="id-divs" id="div-4">
-                    <h1 className="textos">João Gustavo</h1>
-                </div>
-            </section>
-
-            <section className="itens-inferiores">
-                <div className="id-divs" id="div-5">
-                    <h1 className="textos">Formações</h1>
-                </div>
-
-                <div className="id-divs" id="div-6">
-                    <h1 className="textos">Idiomas</h1>
-                </div>
-
-                <div className="id-divs" id="div-7">
-                    <h1 className="textos">Contatos</h1>
-                </div>
-            </section>
         </main>
     )
 }

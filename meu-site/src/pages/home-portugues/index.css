@@ -2,38 +2,74 @@ main {
     background-color: #0c0437;
     height: 47.6vw;
 
-
-
     .section-linguagem{
         display: flex;
         border-bottom: 1px solid #00FFFF;
         justify-content: end;
+
+        .div-linguagem{
+            margin-right: 2em ;
+        }
     }
-
-
-    .div-linguagem {
-        padding-right: 2em;
-    }
-
-    .itens-superiores {
+ 
+    .container-itens {
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 99.9%;
+        height: 89.5%;
+        margin-left: -1em;
     }
 
-    .itens-meio {
+    .section-setas-esquerda{
         display: flex;
-        flex-direction: row;
-        justify-content: space-around;   
+        flex-direction: column;
+        align-items: end;
+        /* border: 1px solid green; */
+        width: 22em;
     }
 
-    .itens-inferiores {
+    .seta1 {
+        width: 10em;
+        margin-top: -0.5em;
+        transform: rotate(-105deg);
+        margin-bottom: 1em;
+        margin-right: -0.5em;
+    }
+    .seta2 {
+        width: 10em;
+        transform: rotate(200deg);
+        margin-bottom: -1em;
+    }
+
+    .section-setas-direita{
         display: flex;
-        flex-direction: row;
-        justify-content: space-around;
+        flex-direction: column;
+        align-items: start;
+        /* border: 1px solid green; */
+        margin-left:-10.5em;
     }
 
-    .id-divs {
+    .seta3 {
+        width: 11.5em;
+        transform: rotate(-34deg);
+        /* margin-bottom: 1em; */
+        margin-top: -0.5em;
+    }
+    .seta4 {
+        width: 10em;
+        transform: rotate(35deg);
+        margin-bottom: 0em;
+        margin-left: 1.5em;
+        margin-top: -1em;
+    }
+
+    .itens-direita-coluna {
+        margin-left: -7.8em;
+    }
+
+    .divs-itens {
         padding: 1em; /* Adiciona espaço interno para os textos */
         width: 10em; /* Define uma largura fixa */
         text-align: center; /* Centraliza o texto dentro da div */
@@ -46,69 +82,21 @@ main {
         );
     }
 
-    #id-section {
-        margin-bottom: 5em;
+    #a {
+        margin-bottom: 0.5em;
     }
 
     .textos {
-        font-size: 1.5em;
         color: white;
     }
 
-    .setas{
-        display: flex;
-        flex-direction: column;
-        width: 100px;
+    .itens-meio-coluna {
+        margin-left: -17em;
+        /* border: 1px solid green; */
     }
 
-    
-    /* Contêiner de setas */
-    .section-setas {
-        position: relative; /* Contêiner relativo para setas */
-        height: 0; /* Alinha com os elementos sem influenciar o layout */
+    #coluna-meio {
+        margin-bottom: 7em;
     }
-
-    /* Estilo base das setas */
-    .seta {
-        position: absolute; /* Posiciona livremente no layout */
-        width: 50px; /* Tamanho fixo das setas (ajuste conforme necessário) */
-        height: auto; /* Mantém a proporção da imagem */
-    }
-
-    /* Setas superiores apontando para o centro */
-    .seta1 {
-        top: -80px; /* Ajuste o valor para posicionar acima */
-        left: 25%; /* Alinha com a primeira div superior */
-    }
-
-    .seta2 {
-        top: -80px;
-        left: 50%; /* Centraliza entre divs superiores */
-        transform: translateX(-50%);
-    }
-
-    .seta3 {
-        top: -80px;
-        left: 75%; /* Alinha com a terceira div superior */
-    }
-
-    /* Setas inferiores saindo do centro */
-    .seta4 {
-        top: 100px; /* Ajuste o valor para posicionar abaixo */
-        left: 25%; /* Alinha com a primeira div inferior */
-    }
-
-    .seta5 {
-        top: 100px;
-        left: 50%;
-        transform: translateX(-50%);
-    }
-
-    .seta6 {
-        top: 100px;
-        left: 75%; /* Alinha com a terceira div inferior */
-    }
-
-    
     
 }
